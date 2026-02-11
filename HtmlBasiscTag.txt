@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cafe Bliss  </title>
+</head>
+
+<body>
+    <!-- Text Tag - Help us to print Text on Webpage -->
+   <h1>Join Now</h1>
+   <h1>Unlimited Movies and More</h1>
+   <h2>Unlimited Movies and More</h2>
+   <h3>Unlimited Movies and More</h3>
+   <h4>Unlimited Movies and More</h4>
+   <h5>Unlimited Movies and More</h5>
+   <h6>Unlimited Movies and More</h6>
+
+   <!-- Mutiple Line of Text -->
+  <p>
+    This is a Paragraph Tag , Which Help to add Multiple Lines of Text on Webpage <br>
+    Hello Guys <br> Welcome To My Cafe
+    This Cafe Serves Best Coffee in The Town
+  </p>
+
+  <!-- emoji = windows key + . -->
+  <strong>Reviews- This Cafe is very Good ⭐⭐⭐⭐</strong>
+
+  <!-- Italic Style Font -->
+   <em>Contact Us - Support@gmail.com</em>
+
+
+
+   
+
+</body>
+</html>
+
+
+------------------------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Introduction</h2>
+    <h2>Profile</h2>
+
+    <p>My Name is <strong>John Mike </strong> and I am working as <strong>Software Devloper</strong> <br>
+      My Skills are <em>HTML , Css , Js ,React .</em> <br>
+      <strong>Email:</strong> support@gmail.com
+    </p>
+
+</body>
+</html>
+
+
+
+----------------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Horizontal Ruler - Draw a straigh Line - hr</h2>
+
+    <hr>
+
+    <h2>Review</h2>
+    <hr>
+
+    <h2>Menu</h2>
+    <hr>
+
+    <h2>Image Tag - To Add Image in Webapage - img</h2>
+
+    <img  height="300" width="500" alt="Sorry Please Wait"  src=" https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhlYWRwaG9uZXxlbnwwfHwwfHx8MA%3D%3D    ">
+
+    <hr>
+
+   <img  src="./NikeSHoes.av"  alt="Tap to retry" height="300" width="500" >
+</body>
+</html>
+
+
+
+-----------------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<iframe width="750" height="450" src="https://www.youtube.com/embed/xPPLbEFbCAo" title="Restaurant Ad Video Template (Editable)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3703.4939264818427!2d73.71672007506768!3d21.838475880021278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39601d55e43af21f%3A0xb8e23c01a1f6eb18!2sStatue%20Of%20Unity!5e0!3m2!1sen!2sin!4v1770827016036!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+</body>
+</html>
