@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .theme {
+            text-align: center;
+            max-width: 400px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        #dark {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .content {
+            margin-top: 20px;
+            background-color: #999;
+            padding: 20px;
+            border-radius: 8px;
+            color: #fff;
+        }
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        </style>
+</head>
+<body>
+    <div class="theme">
+        <h1>Theme App</h1>
+        <button id="dark">🌙</button>
+        <div class="content">
+            <h2>Profile Card</h2>
+            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Profile Picture">
+            <p>Name: John Doe</p>
+            <p>Age: 30</p>
+            <p>Location: New York</p>
+        </div>
+    </div>
+
+    <script>
+        const dartButton = document.getElementById('dark');
+        const content = document.querySelector('.content');
+
+       //addEventListerner('type of event' , fucntion-Task) help us to capture the Action(Events) Perfromed by the user
+        dartButton.addEventListener('click', function() {
+            
+          document.body.style.backgroundColor = '#333';
+          document.body.style.color = '#fff';
+            content.style.backgroundColor = 'beige';
+            content.style.color = '#333';
+
+            dartButton.innerHTML = '☀️';
+        });
+     </script>
+</body>
+</html>

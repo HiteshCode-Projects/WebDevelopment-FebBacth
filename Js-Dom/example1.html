@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+
+    <h1 id="myh">Welcome to JavaScript DOM</h1>
+
+    <p class="myp">This is a paragraph.</p>
+    <p class="myp">This is another paragraph.</p>
+    <h2 class="myp">This is a heading.</h2>
+
+    <script>
+        const heading = document.getElementsByTagName('h1');
+        console.log(heading);
+
+        const myHeading = document.getElementById('myh');
+        console.log(myHeading);
+
+        const myParagraphs = document.getElementsByClassName('myp');
+        console.log(myParagraphs);
+    </script>
+</body>
+</html>
