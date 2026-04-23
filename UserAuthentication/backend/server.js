@@ -33,6 +33,7 @@ if(!name || !email || !password){
     return res.json({ message:"All Fields must be completed" })
 }
 
+
 try{
 //Save The Data in my Database Collection - Model
 
@@ -70,7 +71,7 @@ res.json({message:"User Registered Succesfully"})
 
 })
 
-
+//Login API
 
 app.listen(3000, ()=>{
     console.log("Server Started")
